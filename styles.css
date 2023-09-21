@@ -31,6 +31,56 @@ hr {
     margin-bottom: 27px;
 }
 
+/* Header Start */
+.header {
+    width: 100%;
+    height: 95px;
+    background-color: #562EFF;
+}
+
+.header-title {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    gap: 15px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.icon img {
+    height: 50px;
+    width: 45px;
+}
+
+.option {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 36px;
+    font-size: 18px;
+}
+
+.option a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/* Header End */
+
 /* Top Players Start */
 .top-players {
     margin-bottom: 30px;
@@ -154,6 +204,14 @@ hr {
     .container {
         width: 100%;
     }
+    .header {
+        height: 150px;
+    }
+    .nav-bar,
+    .option {
+        width: 100%;
+        flex-direction: column;
+    }
 
     .section-title {
         margin-left: 50px;
@@ -194,6 +252,15 @@ hr {
         width: 100%;
     }
 
+    .header {
+        height: 150px;
+    }
+
+    .nav-bar,
+    .option {
+        width: 100%;
+        flex-direction: column;
+    }
     .section-title {
         margin-left: 50px;
     }
